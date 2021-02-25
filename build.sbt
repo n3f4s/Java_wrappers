@@ -8,5 +8,7 @@ lazy val app = project
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.1.0" % "test",
       ),
-    name := "Java-Wrapper",
+    organization := "org.nefas",
+    version      := "0.1-SNAPSHOT",
+    name := "java_wrapper",
   )
